@@ -1,3 +1,4 @@
+
 header .container {
   max-width: 1200px; /* Увеличьте максимальную ширину контейнера */
   padding: 7px 0;
@@ -5,20 +6,23 @@ header .container {
   font-family: 'Roboto', sans-serif; /* Используем современный шрифт */
   color: #fff;
 }
-
+header nav {
+  background: linear-gradient(to right, rgba(20, 20, 30, 0.9), rgba(40, 40, 50, 0.9))!important;
+}
 .contact-info {
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: linear-gradient(to right, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8))!important; 
+  /* background: linear-gradient(to right, rgba(30, 30, 30, 0.8), rgba(60, 60, 60, 0.8))!important;  */
+  background: linear-gradient(to right, rgba(20, 20, 30, 0.8), rgba(40, 40, 50, 0.8))!important;
   color: #fff;
   font-size: 16px; /* Чуть меньший шрифт для компактности */
   letter-spacing: 1px; /* Лёгкое увеличение межбуквенного расстояния */
 }
 
 .contact-info * {
-  color: #fff !important; 
+  color: #D3D3D3 !important; 
 }
 
 .left, .right {
