@@ -555,17 +555,21 @@
 .gallery-container {
     position: relative;
     max-width: 100%;
-    margin: 20px auto;
+    margin: 0px auto;
     overflow: hidden;
     text-align: center;
-    padding-bottom: 70px; /* Добавляем отступ снизу для кнопок */
+    padding-bottom: 0px; /* Добавляем отступ снизу для кнопок */
 }
-
+.gallery-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
 /* Слайд-шоу */
 .gallery-slideshow {
     display: flex;
     transition: transform 0.5s ease-in-out;
     justify-content: center;
+    height: 500px;
 }
 
 /* Контейнер для слайдов */
@@ -574,8 +578,9 @@
     box-sizing: border-box;
     padding: 10px;
     background-color: #f0f0f0;
-    width: 450px; /* Фиксированная ширина */
-    height: 350px; /* Фиксированная высота */
+    width: 100%; /* Фиксированная ширина */
+    height: 75%; /* Фиксированная высота */
+    background-color: #fff;
 }
 
 /* Стили для изображений в слайде */
